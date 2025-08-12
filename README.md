@@ -15,13 +15,7 @@ A clean, accessible, **single-page** portfolio site. No build step required—ju
 - `assets/css/style.css`: tweak theme tokens (colors, radius, shadows)
 - `assets/resume.pdf`: replace with your resume
 
-## 🚀 Deploy to GitHub Pages
-1. Create a new GitHub repo (e.g. `portfolio`).
-2. Upload all files in this folder to the repo root.
-3. In GitHub → **Settings → Pages**:
-   - **Source**: Deploy from a branch
-   - **Branch**: `main` (root) → **Save**
-4. Your site will be available at `https://<username>.github.io/<repo>/`.
+
 
 > Tip: If you want the root domain `https://<username>.github.io/`, name the repo `<username>.github.io`.
 
