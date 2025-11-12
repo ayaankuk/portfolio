@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ayaan Kukreja – Portfolio</title>
+  <meta name="description" content="Modern, clean personal portfolio website of a senior developer."/>
+  <meta name="theme-color" content="#0ea5e9"/>
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ayaan Kukreja – Portfolio"/>
+  <meta property="og:description" content="Senior developer portfolio: projects, experience, and contact."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://ayaankuk.github.io/"/>
+  <meta property="og:image" content="assets/img/og-image.png"/>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css" />
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Ayaan Kukreja",
+    "jobTitle": "Computer Science Student",
+    "url": "https://ayaankuk.github.io/",
+    "sameAs": [
+      "https://github.com/ayaankuk",
+      "https://www.linkedin.com/in/ayaan-kukreja-6a064b2b4/"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#hero" aria-label="Home">
+        <img class="brand-avatar" src="assets/img/avatar.svg" alt="Avatar" />
+        <span>Ayaan Kukreja</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+        <span class="theme-icon" aria-hidden="true">🌓</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="content">
+    <!-- HERO -->
+    <section id="hero" class="section hero-section">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Student · Builder · Problem Solver</p>
+          <h1>Hi, I’m <span class="accent">Ayaan Kukreja</span>.</h1>
+          <p class="lead">
+            
+            I'm a 3rd‑year Computer Science student at Wilfrid Laurier University. I'm interested in software development and AI/ML and eager to learn more.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-outline" href="assets/Ayaan_Kukreja_Resume_2025.pdf" target="_blank" rel="noopener">Download Resume</a>
+          </div>
+          <div class="hero-links">
+            <a href="https://github.com/ayaankuk" target="_blank" rel="noopener" aria-label="GitHub">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/ayaan-kukreja-6a064b2b4/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn ↗</a>
+            
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/img/headshot.jpg" alt="Ayaan Kukreja headshot" class="hero-photo" />
+        </div>
+      </div>
+    </section>
+
+    
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About</h2>
+        </div>
+
+        <div class="about-cards">
+          <!-- Large paragraph card -->
+          <article class="card about-card">
+            
+            <p>
+              I'm Ayaan Kukreja, a 3rd-year Computer Science student at Wilfrid Laurier University.
+              I like building simple, friendly interfaces and turning ideas into things people can use.
+              Outside of code, I’m big on the gym and continuous learning.
+            </p>
+          </article>
+
+          <!-- Right column with two smaller cards -->
+          <div class="about-side">
+            <article class="card mini-card">
+              <div class="meta-row">
+                <span class="icon-wrap"><img src="assets/img/icon-location.svg" alt="" aria-hidden="true"></span>
+                <div>
+                  <h3>Location</h3>
+                  <p class="muted">Toronto, Ontario, Canada</p>
+                </div>
+              </div>
+            </article>
+            <article class="card mini-card">
+              <div class="meta-row">
+                <span class="icon-wrap"><img src="assets/img/icon-school.svg" alt="" aria-hidden="true"></span>
+                <div>
+                  <h3>Education</h3>
+                  <p class="muted">Wilfrid Laurier University · BSc Computer Science (3rd year)</p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Skills</h2>
+        </div>
+        <div class="about-grid">
+          <article class="card">
+            <h3>Frontend</h3>
+           
+            <ul class="chip-list">
+              <li class="chip">React</li>
+              <li class="chip">JavaScript</li>
+              <li class="chip">TypeScript</li>
+              <li class="chip">HTML/CSS</li>
+              <li class="chip">Tailwind</li>
+              
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Backend</h3>
+            
+            <ul class="chip-list">
+              <li class="chip">Python (Django/Flask)</li>
+              <li class="chip">Node.js</li>
+              <li class="chip">REST APIs</li>
+              <li class="chip">PostgreSQL / SQL</li>
+              <li class="chip">C</li>
+              <li class="chip">Assembly</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3>Other Tools</h3>
+            
+            <ul class="chip-list">
+              <li class="chip">Git & GitHub</li>
+              <li class="chip">Docker</li>
+              <li class="chip">Google Cloud</li>
+              <li class="chip">Vercel</li>
+              <li class="chip">Testing (Jest/PyTest)</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Projects</h2>
+        </div>
+
+        <div class="projects-controls">
+          <input id="projectSearch" class="input" placeholder="Search projects, tags…" aria-label="Search projects" />
+        </div>
+
+        <div id="projectsGrid" class="projects-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Contact</h2>
+        </div>
+        <div class="contact-card card">
+          <p>Reach out to me via <a href="mailto:you@example.com">ayaankukreja1@gmail.com</a> or on <a href="https://www.linkedin.com/in/ayaan-kukreja-6a064b2b4/" target="_blank" rel="noopener">LinkedIn</a>.</p>
+          <form action="https://formspree.io/f/mjkolapk" method="POST" class="contact-form">
+            <label>
+              <span>Name</span>
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              <span>Email</span>
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              <span>Message</span>
+              <textarea name="message" rows="4" required></textarea>
+            </label>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Ayaan Kukreja</p>
+      <div class="foot-links">
+        <a href="https://github.com/ayaankuk" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/ayaan-kukreja-6a064b2b4/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="#hero">Back to top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <script defer src="assets/js/theme.js"></script>
+  <script defer src="assets/js/projects.js"></script>
+  <script defer src="assets/js/main.js"></script>
+</body>
+</html>
+
+
+<script>
+  (function () {
+    const form = document.getElementById("contactForm");
+    const status = document.getElementById("contactStatus");
+    if (!form) return;
+  
+    form.addEventListener("submit", async (e) => {
+      e.preventDefault();
+      status.textContent = "Sending…";
+  
+      try {
+        const res = await fetch(form.action, {
+          method: "POST",
+          body: new FormData(form),
+          headers: { "Accept": "application/json" }
+        });
+  
+        if (res.ok) {
+          form.reset();
+          status.textContent = "Thanks! I’ll get back to you shortly.";
+        } else {
+          const data = await res.json().catch(() => ({}));
+          status.textContent = data.errors?.[0]?.message || "Something went wrong. Please try again or use LinkedIn.";
+        }
+      } catch (err) {
+        status.textContent = "Network error. Check your internet and try again.";
+      }
+    });
+  })();
+  </script>
+  
