@@ -22,6 +22,6 @@ const PROJECTS = [
     tags: ["Python", "Pyside6", "OpenCV", "MediaPipe", "NumPy"],
     link: "https://youtu.be/WROS8AGGH6E",
     source: "https://github.com/ayaankuk/bodybuilding-form-coach",
-    image: "assets/img/project-3.svg"
+    image: "assets/img/bodybuildapp.png"
   }
 ];
