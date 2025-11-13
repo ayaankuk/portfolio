@@ -274,4 +274,11 @@ a:hover { text-decoration: underline; }
   .about-cards { grid-template-columns: 1fr; }
 }
 
+#bgParticles {
+  position: fixed;
+  inset: 0;
+  z-index: -1;          /* keep behind everything */
+  pointer-events: none; /* ignore clicks */
+}
+
 
